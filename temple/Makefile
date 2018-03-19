@@ -4,6 +4,9 @@ GXX = g++
 
 #define compiler switch
 CFLAG = -Wall -c
+#CFLAG += -I/home/root/usr/include
+#LDFLAGS += -L/home/root/usr/lib
+#LDFLAGS += -lpthread
 
 #define header of file dir
 INCLUDE = ./
